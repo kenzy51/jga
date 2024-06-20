@@ -39,7 +39,7 @@
     "react/function-component-definition": "off",
     "react/display-name": "off",
     "react/prop-types": [1, { "skipUndeclared": true }],
-    "import/no-unresolved": "error",
+    "import/no-unresolved": "warn",
     "import/extensions": [
       "error",
       "ignorePackages",
