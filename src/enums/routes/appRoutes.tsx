@@ -1,0 +1,30 @@
+export enum AppRoutes {
+  MAIN = "main",
+  NEWS = "news",
+  NEWS_ID = "news/:id",
+  VACANCIES = "vacancies",
+  VACANCY_ID = "vacancies/:id",
+  PROJECTS = "projects",
+  ACADEMY = "projects/academy",
+  MFC = "projects/mfc",
+  CONTACTS = "contacts",
+  PRIVACY = "privacy-police",
+  FIN_REPORT = "fin-report/:id",
+  NOT_FOUND = "*",
+}
+
+export enum Routes {
+  MAIN = "/",
+  NEWS = "/news",
+  NEWS_ID = "/news/:id",
+  VACANCIES = "/vacancies",
+  VACANCY_ID = "/vacancies/:id",
+  PROJECTS = "/projects",
+  ACADEMY = "/projects/academy",
+  MFC = "/projects/mfc",
+  APARTMENT = "/apartment",
+  CONTACTS = "/contacts",
+  PRIVACY = "/privacy-police",
+  FIN_REPORT = "/fin-report/:id",
+  NOT_FOUND = "*",
+}

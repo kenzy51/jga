@@ -1,0 +1,68 @@
+.block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block :global(.ant-form-item) {
+  width: 49% !important;
+}
+
+.phone :global(.react-tel-input .form-control) {
+  background: white !important;
+  color: #181733 !important;
+  border: 1px solid rgb(182, 182, 182) !important;
+  height: 44px !important;
+}
+
+.phone :global(.selected-flag) {
+  background: white !important;
+}
+
+.phone :global(.flag-dropdown) {
+  border: 1px solid rgb(182, 182, 182) !important;
+  border-radius: 10px !important;
+}
+
+.phone :global(.country-list) {
+  background: white !important;
+  color: #181733 !important;
+}
+
+.phone :global(.country-list li) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.phone :global(.country-list li:hover) {
+  background: rgb(182, 182, 182) !important;
+}
+
+.phone :global(.react-tel-input .country-list .country.highlight) {
+  background-color: rgb(182, 182, 182) !important;
+  z-index: 999999;
+}
+
+.btn {
+  width: 400px;
+  // background: var(
+  //   --grey,
+  //   linear-gradient(261deg, #4e4e4e 4.9%, #b1b1b1 82.8%)
+  // ) !important;
+  background: var(
+    --blackgreay,
+    linear-gradient(87deg, #000 2.3%, #4e4e4e 39.84%, #000 122.3%)
+  ) !important;
+
+  border-radius: 4px;
+  height: 45px !important;
+  border: none;
+  margin: 0 auto;
+  color: white;
+  font-size: 14px !important;
+}
+
+.btnBlock {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

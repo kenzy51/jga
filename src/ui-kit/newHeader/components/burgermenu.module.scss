@@ -1,0 +1,32 @@
+.burger {
+  color: white;
+  margin-top: 20px;
+  background: #2c2c2c;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px #f6f6f914 solid;
+  padding: 18px 14px 32px 24px;
+}
+
+.topContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  margin-top: 30px;
+}
+
+.listUl {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 30px;
+  line-height: 22.63px;
+  font-size: 18px;
+}
+
+.language {
+  margin-top: 40px;
+}

@@ -1,0 +1,318 @@
+.mainContainer {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 90px;
+  padding-top: 70px;
+  text-align: center;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 90px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://s3.barcelona.kg/static/managementLines.svg);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top left;
+  }
+
+  & > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--white);
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+
+  & > .loadingIcon {
+      margin-top: auto;
+      cursor: pointer;
+      margin-bottom: 80px;
+      color: var(--black);
+      font-size: 3rem;
+      transition: color 0.1s linear;
+
+      &:hover {
+          color: var(--red);
+      }
+
+      @media (max-width: 480px) {
+          margin-bottom: 100px;
+      }
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 200px;
+  height: 100%;
+  border-radius: 4px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  overflow: hidden;
+  padding: 30px 40px 20px;
+  text-align: start;
+}
+
+.aboutWork {
+  width: 100%;
+  border-radius: 4px;
+  background-color: white;
+  margin-top: 40px;
+  border: 1px solid #dbdbdb;
+  padding: 30px 40px;
+  text-align: start;
+}
+
+.title {
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.desc2 {
+  font-weight: 400;
+  color: #bbbbbb;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.img {
+  width: 350px;
+  height: 400px;
+  border-radius: 10px 10px 0 0;
+  object-fit: contain;
+}
+
+.cardList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 70px;
+  padding: 0px 16px;
+}
+
+.cardContent {
+  padding: 20px;
+}
+
+.firstname {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 1);
+}
+
+.type {
+  color: rgba(201, 201, 201, 1);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.firstBlock {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+}
+
+.cardTitle {
+  color: #bb0a21;
+  font-size: 30px;
+  font-weight: 800;
+  width: 72%;
+}
+
+.salary {
+  color: #bbbbbb;
+  font-size: 24px;
+  text-wrap: nowrap;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.date {
+  color: #888888;
+  font-size: 16px;
+  text-wrap: nowrap;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.dateMobile {
+  color: #888888;
+  font-size: 12px;
+  font-weight: 400;
+  display: none;
+}
+
+.city {
+  font-weight: 800;
+  font-size: 16px;
+  color: #bbbbbb;
+  margin-top: 10px;
+}
+
+.experience {
+  font-weight: 400;
+  color: #bbbbbb;
+  font-size: 14px;
+  margin: 20px 0px 10px;
+}
+
+.desc {
+  font-weight: 400;
+  color: #bbbbbb;
+  font-size: 14px;
+  margin-bottom: auto;
+}
+
+.btn {
+  align-self: flex-end;
+  height: auto;
+  padding: 6px 45px;
+  margin-top: 20px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: var(--red);
+
+  &:hover {
+    background-color: #bb0a21 !important;
+  }
+
+  &.clicked {
+    background-color: var(--white) !important;
+    color: #bb0a21 !important;
+    border: 1px solid #bb0a21 !important;
+
+    &:hover {
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .cardTitle {
+    font-size: 25px;
+  }
+
+  .salary {
+    font-size: 20px;
+  }
+
+  .date {
+    font-size: 14px;
+  }
+
+  .city {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 840px) {
+  .cardTop {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .cardTitle {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .salary {
+    font-size: 20px;
+    margin-left: 0px;
+  }
+
+  .date {
+    font-size: 14px;
+    display: none;
+  }
+
+  .dateMobile {
+    margin-top: 8px;
+    display: block;
+  }
+
+  .city {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .cardList {
+    padding: 0px 5px;
+  }
+
+  .aboutWork {
+    padding: 10px 25px;
+  }
+
+  .card {
+    padding: 25px 25px 20px;
+  }
+
+  .cardTitle {
+    font-size: 22px;
+  }
+
+  .salary {
+    font-size: 18px;
+  }
+
+  .city {
+    font-size: 13px;
+  }
+
+  .desc {
+    font-size: 13px;
+  }
+
+  .btn {
+    padding: 6px 38px;
+    font-size: 14px;
+  }
+}

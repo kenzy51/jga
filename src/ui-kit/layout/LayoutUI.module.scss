@@ -1,0 +1,40 @@
+@import "../../theme/mixins.scss";
+
+.layout {
+    position: relative;
+    background-color: var(--primary);
+    color: var(--black);
+    padding-bottom: 110px;
+    border-radius: 0px 0px 48px 48px;
+
+    &.dark {
+        background-color: var(--secondary);
+        color: var(--white);
+        z-index: 1;
+
+        &::before {
+            position: absolute;
+            z-index: -1;
+            content: "";
+            top: -41rem;
+            left: 65%;
+            width: 45rem;
+            height: 45rem;
+            background: rgba(21, 29, 133, 0.6);
+            border-radius: 100%;
+            filter: blur(100px);
+            -webkit-filter: blur(100px);
+            -webkit-box-shadow: 0px 0px 300px 197px rgba(21, 29, 133, 0.6);
+            -moz-box-shadow: 0px 0px 300px 197px rgba(21, 29, 133, 0.6);
+            box-shadow: 0px 0px 300px 197px rgba(21, 29, 133, 0.6);
+        }
+    }
+
+    @include responsive(desktop) {
+        padding-bottom: 90px;
+    }
+    @include responsive(tablet) {
+        padding-bottom: 72px;
+        border-radius: 0px 0px 32px 32px;
+    }
+}

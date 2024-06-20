@@ -1,0 +1,49 @@
+.infoBlock {
+    display: flex;
+    gap: 14px;
+    max-width: 43rem;
+}
+
+.topBlock {
+    max-width: 23px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+
+    span {
+        color: var(--bg-btn);
+        font-size: 1.6rem;
+        line-height: 2.011rem;
+        font-weight: 600;
+    }
+}
+
+.line {
+    background-color: white;
+    width: 0.4rem;
+    height: 70%;
+    border-radius: 30px;
+}
+
+.bottomBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    h4 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.84rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.508rem;
+        font-weight: 400;
+        color: var(--bg-lightBlack);
+        opacity: 0.7;
+        height: auto;
+    }
+}

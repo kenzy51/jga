@@ -1,0 +1,372 @@
+{
+  "logo-placeholder": "LOGO",
+  "language": "Language of site:",
+  "cookie": {
+    "title": "Cookies",
+    "desc": "FC Barcelona uses its own cookies and third-party cookies to improve the functionality of the website, for analytical purposes, and to display advertising relevant to your preferences based on your browsing habits. For more information, please review our Cookie Policy. You can also customize the rejection of cookies by clicking on this link, or allow them by clicking the 'ACCEPT' button",
+    "btn": "Accept"
+  },
+  "mission": {
+    "ourMission": "Our mission",
+    "subTitle": "Inspire, develop and shape future leaders",
+    "desc1": "We are committed to creating superior sports and mental development, providing high quality training and support for everyone.",
+    "desc2": "We are dedicated to creating an environment where talent flourishes, values are formed, and dreams turn into reality.",
+    "project": "International projects",
+    "people": "People in team",
+    "invest": "Investments attracted",
+    "millions": "$400M"
+  },
+  "workDir": {
+    "workDirection": " Direction of work",
+    "managementTitle": "Management in Sports",
+    "managementDesc": "Management and development of football clubs and academies",
+    "devTitle": "Development",
+    "devDesc": "Design and implementation of large infrastructure projects",
+    "investTitle": "Investments and Consulting",
+    "investDesc": "Finding investors and partners for the company's projects"
+  },
+  "values": {
+    "valuesTitle": "The values our company adheres to:",
+    "profTitle": "Professionalism:",
+    "profDesc": "We adhere to high standards of professionalism in all aspects of our work. Our team strives for continuous improvement of their skills and knowledge to achieve the best results for our clients and partners.",
+    "innovationTitle": "Innovation:",
+    "innovationDesc": "We encourage and support a creative approach to problem-solving and the search for new opportunities. Innovation is the engine of our development, and we are ready to seek and implement innovative ideas that will help us stay at the forefront of our industry.",
+    "supportTitle": "Collaboration:",
+    "supportDesc": "We believe in the power of collaboration and teamwork. We value the contribution of each team member and strive to create an open and supportive environment where ideas are freely exchanged, and employees interact in a spirit of mutual assistance and respect.",
+    "eticTitle": "Ethics:",
+    "eticDesc": "We act with honesty, integrity, and ethics in all our business relationships. We strive to ensure that our activities meet high standards of ethics and social responsibility and do everything possible to be a reliable and trusted partner.",
+    "leaderTitle": "Leadership:",
+    "leaderDesc": "We encourage the development of leadership qualities in every employee. We strive to be inspiring leaders in our field, capable of leading and motivating others to achieve outstanding results."
+  },
+
+  "header": {
+    "title1": "Management",
+    "title2": "News",
+    "title3": "Projects",
+    "title4": "Vacancies",
+    "title5": "Contact",
+    "button": "Contact",
+    "title6": "Apartments",
+    "title7": "About Us",
+    "main": "Main"
+  },
+  "body": {
+    "mission": "Mission",
+    "missionText": "To create unique conditions and open new opportunities.",
+    "view": "Vision",
+    "viewText": "We are creating a community that values a healthy lifestyle.",
+    "cost": "Values",
+    "safe": "• Safety: Creating a safe environment for our partners is our top priority.",
+    "quality": "• High-Quality Standards: We provide our clients with outstanding quality housing, using advanced construction technologies, modern design, and innovative solutions.",
+    "partner": "• Reliable Partnership: We are proud of our cooperation with La Masia Academy, creating unique opportunities for the development of sports talents and supporting them on their path to success.",
+    "social": "• Social Responsibility: We are committed to social projects and initiatives that benefit the community and contribute to societal well-being.",
+    "opacity": "• Transparency and Trust: We value our relationships with our clients and community, adhering to standards of transparency and honesty at every stage of our activity.",
+    "team": "• Team Spirit: We encourage team spirit within the company, affirming the idea that joint efforts lead to the best results in each project.",
+    "up": "• Continuous Improvement: We aim for continuous improvement in all aspects of our activity, introducing innovations and enhancements in design, construction, and maintenance of our properties.",
+    "description2": "Day-to-day practice shows that strengthening and developing the structure plays a significant role in the formation of appropriate conditions for activation. Ideological considerations of a higher order, as well as a new model of organizational activity, require us to analyze forms of development. However, it should not be forgotten that the strengthening and development of the structure contribute to the preparation and implementation of new proposals.",
+    "title": "Jal Group",
+    "firstDesc": "The only company in the world that owns a Barca franchise Experience in Central Asia and Kazakhstan",
+    "secondDesc": "MFC Barcelona is the first and only premium class project with a socio-cultural cluster",
+    "next": "Next",
+    "nextText": "MFC Barcelona"
+  },
+  "manage": {
+    "title": "Management",
+    "empty": "No Managers"
+  },
+  "news": {
+    "title": "Company News",
+    "btn": "Show more news",
+    "btnBack": "Back to the news list",
+    "btnSeeAll": "See all news",
+    "empty": "There is no relevant news"
+  },
+  "ceo": {
+    "quote": "One of our goals is to be a catalyst for developing football culture and creating a positive impact in society through play, learning and interaction",
+    "president": "President of Jal Group Asia",
+    "aibek": "Aibek Alybaev"
+  },
+  "vacancies": {
+    "title": "Vacancies in our company",
+    "empty": "There are no current vacancies",
+    "vacancy": "Vacancy",
+    "to": "to",
+    "from": "From",
+    "aboutUs": "Who are we?",
+    "condition": "Working conditions:",
+    "city": "City",
+    "skill": "Skills",
+    "work": "About the work",
+    "requiredExp": "Required work experience:",
+    "responseModal": "Respond to Vacancy",
+    "none": "No experience",
+    "lessOne": "Less than 1 year",
+    "oneThree": "from 1 to 3 years",
+    "three_six": "from 3 to 6 years",
+    "fullTime": "Full-time",
+    "partTile": "Part-time",
+    "remoteWork": "Remote work",
+    "officeWork": "Office work",
+    "btnDetail": "Details",
+    "btnMore": "Show more vacancies",
+    "btnFollow": "Respond",
+    "btnFollowYet": "You have responded",
+    "otclick": "Apply for the job",
+    "desc": "Fill out a short form and we will get in touch with you!"
+  },
+  "background": {
+    "title": "TERRITORY OF SUCCESS",
+    "button1": "VIDEO-Tour around complex",
+    "button2": "3D-Тур по квартире с террасой",
+    "button3": "3D-Тур по квартире в корпусе Б"
+  },
+  "project": {
+    "title": "Project",
+    "empty": "No Projects",
+    "image": "Images",
+    "plan": "Plan",
+    "planApartment": "Apartment Plans",
+    "apartment": "Apartment View",
+    "tour": "3D Tour of the Apartment",
+    "projectview": "General View of the Project",
+    "place": "Project location"
+  },
+  "finReport": {
+    "title": "Financial report",
+    "selectTypeDoc": "Select the document type",
+    "selectQuarter": "Select a quarter",
+    "selectYear": "Choose a year",
+    "allYears": "All years",
+    "btn": "Show reports",
+    "btnBack": "Go back",
+    "btnOpen": "Open",
+    "quarter": "quarter",
+    "allQuarter": "Select all",
+    "notFound": "No documents found",
+    "btnMore": "Show more"
+  },
+  "estate": {
+    "title": "Real Estate",
+    "empty": "No Real Estate",
+    "ceil": "Ceiling Height: ",
+    "area": "Area: ",
+    "block": "Block: ",
+    "type": "Type: ",
+    "quarter": "Quarter",
+    "year": "Year of Completion: "
+  },
+  "call": {
+    "title": "Contact",
+    "btn": "Send",
+    "name": "Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "message": "Message"
+  },
+  "hotel": {
+    "title": "Project",
+    "desc": "Day-to-day practice shows that strengthening and developing the structure plays a significant role in the formation of appropriate conditions for activation. And"
+  },
+  "emptyPage": {
+    "desc": "Data is missing!"
+  },
+  "notFound": {
+    "desc": "The page was not found",
+    "btn": "Go to the main page"
+  },
+  "footer": {
+    "projects": {
+      "title": "Projects",
+      "academyJ": "Barca Academy in Jalal-Abad",
+      "academyB": "Barca Academy in Bishkek",
+      "complex": "MFC Barcelona"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "home": "Home",
+      "projects": "Projects",
+      "news": "News",
+      "vacancies": "Vacancies",
+      "contacts": "Contacts",
+      "privacy": "Privacy policy"
+    },
+    "contacts": {
+      "title": "Contacts",
+      "location": "c.Bishkek, A.Tokombaeva 27/3a"
+    }
+  },
+  "convenience": {
+    "title": "World-Class Amenities",
+    "desc": "The wide range of amenities you'll find in Our Project will satisfy all your needs, allowing you to enjoy life and luxury in the south of the capital at its best.",
+    "card": {
+      "title1": "Swimming Pool",
+      "title2": "Club Membership",
+      "title3": "Gym",
+      "title4": "Children's Playground",
+      "title5": "Access to the Stadium",
+      "title6": "Parking",
+      "title7": "Clinic",
+      "title8": "Recreation Areas"
+    },
+    "project": "Project Location",
+    "projectDesc": "The Barcelona project is the pearl of the Southern Capital, the embodiment of the idea of a modern and comfortable lifestyle. Occupying a picturesque space on the southern outskirts of the city, it delights with its excellent location.",
+    "projectDesc2": "Thanks to its location, Barcelona provides residents with easy access to all necessary infrastructure. Numerous amenities, including shopping malls, educational institutions and entertainment complexes, make life here not only comfortable, but also rich."
+  },
+  "funder": {
+    "funder": "Our Sponsors",
+    "become": "Become a Sponsor"
+  },
+  "club": {
+    "label": "Club",
+    "desc": "A tier system for the members of the Barça Residential Complex Club",
+    "desc2": "The tier system is a strategic approach to providing club members with a variety of services and privileges based on their individual needs and preferences. This system offers different levels of services, allowing residents to choose a level that suits their lifestyle, providing a unique and personalized living experience. In the Barça Residential Complex, we plan to implement a system of 3 levels: Standard, Premium, VIP",
+    "btn": "Learn more",
+    "label3": "Standard",
+    "desc3": "Privileges:",
+    "desc4": "- Free participation in monthly club events (Matches at the stadium, cooking master classes, etc.).",
+    "desc5": "- Access to the online forum and voice groups",
+    "desc6": "- Access and consultation from the duty nurse",
+    "desc7": "- Assistance and consultation from the concierge (meeting guests, calling the nurse, helping with technical problems)",
+    "desc8": "- Security Service (organizing security in the building)",
+    "label4": "Premium",
+    "label5": "VIP",
+    "desc10": "- All Standard privileges",
+    "desc11": "- Priority participation in events and access to exclusive meetings",
+    "desc12": "- The ability to vote on the direction of club development",
+    "desc13": "- Quick repairman (Specialist for quick repair works - from changing light bulbs, minor household breakdowns to plumbing problems)",
+    "desc14": "- Food and grocery delivery to apartments",
+    "desc20": "- All Premium privileges",
+    "desc21": "- Priority in resolving all issues from the management company related to club matters",
+    "desc22": "- Invitations to private events regardless of their type",
+    "desc23": "- Free interior design",
+    "desc24": "- Sports life coach (Personal trainer, creating individual training programs and detailed consultations on workouts)",
+    "btnBack": "Back",
+    "give": "How to Get?",
+    "backDesc1": "- All residents automatically receive the standard level upon moving in",
+    "backDesc2": "- Purchase of an apartment in the Barça Residential Complex",
+    "backDesc3": "- Purchase of commercial premises, parking zones, gardens, etc.",
+    "backDesc4": "- A resident's child must study at the Barça Academy (Under consideration)",
+    "backDesc5": "- Participation in the charity fund of the Barça Residential Complex (Jal Group)",
+    "backDesc6": "- Purchase of 2 or more apartments",
+    "backDesc7": "- Inviting 5 new club members (successful buyer)",
+    "backDesc8": "- Purchase of 2 or more apartments",
+    "backDesc9": "- Child must study at the Barcelona Academy",
+    "backDesc10": "- Monthly donations to the charity fund of Barca Residential Complex (Jal Group)",
+    "backDesc11": "- Purchase of commercial premises, parking zones, garden plots, etc.",
+    "backDesc12": "- Purchase of 5 or more apartments or paid zones",
+    "backDesc13": "- Invitation of 8 new club members (successful apartment buyers)"
+  },
+  "headerMobile": {
+    "main": "Main",
+    "management": "Management",
+    "projects": "Projects",
+    "news": "News",
+    "vacancies": "Vacancies",
+    "contacts": "Contacts",
+    "club": "Club",
+    "academy": "Academy"
+  },
+  "newProject": {
+    "title": "We are proud of each of our projects",
+    "desc": "Our strategy is based on efficient resource allocation and risk management to ensure stable and sustainable growth.",
+    "mfc": "MFC Barcelona",
+    "barca": "Barca Experience",
+    "soon": "Coming Soon",
+    "jal": "Barca Academy Jalal-Abad",
+    "bish": "Barca Academy Bishkek"
+  },
+  "barca": {
+    "back": "Back to projects",
+    "title": "Barca Experience",
+    "mainTitle": "Barca Experience is a project of the football club 'Barcelona' aimed at promoting football culture worldwide.",
+    "firstDesc": "Jal Group Asia is the first company in the world to hold this franchise, having the right to implement Barca Experience throughout Central Asia.",
+    "secondDesc": "Barca Experience is an ecosystem of the world club's brands aimed at developing and promoting sports culture. The ecosystem includes an academy, stores, cafes, a museum, and other projects.",
+    "blueTitle": "In August 2023",
+    "blueDesc": "the official opening of Barca Academy took place in the city of Jalal-Abad. Kyrgyzstan became the first country in the CIS to open an academy of the world club. The entire infrastructure of the academy occupies an area of 5 hectares. In 2024, the launch of Barca Academy in Bishkek is planned.",
+    "jal": "Barca Academy in Jalal-Abad",
+    "bish": "Barca Academy in Bishkek",
+    "store": "Barca Store",
+    "cafe": "Barca Cafe",
+    "museum": "Barca Museum"
+  },
+  "mfc": {
+    "back": "Back to projects",
+    "title": "MFC Barcelona",
+    "titleMob": "MFC Barcelona",
+    "mainTitle": "A space with a unique atmosphere for living and development",
+    "firstDesc": "The largest real estate project. The premium-class multifunctional complex 'BARCELONA' will be located in the heart of the southern district of the capital.",
+    "secondDesc": "A unique project that combines everything you need in one space. The innovative and energetic exterior, complemented by a human-centered approach inside, creates a unique living space.",
+    "blueTitle": "The multifunctional complex Barcelona is located in the most environmentally friendly area of the capital, above the Southern highway",
+    "about": "About the project",
+    "info": "Also on the territory of the complex:",
+    "advantage": "Advantages",
+    "dop": {
+      "title1": "2 hectares",
+      "desc1": "Courtyard-park",
+      "title2": "10",
+      "desc2": "Blocks",
+      "title3": "1600",
+      "desc3": "Apartments",
+      "title4": "2 levels",
+      "desc4": "Underground parking"
+    },
+    "dop2": {
+      "title1": "Barca Academy Bishkek",
+      "title2": "Own kindergarten",
+      "title3": "Own school",
+      "title4": "Business center",
+      "title5": "Hotel",
+      "title6": "Arena"
+    },
+    "dop3": {
+      "title1": "Large children's club",
+      "title2": "Diagnostic center",
+      "title3": "Fitness and SPA",
+      "title4": "Retail",
+      "title5": "Cafes and restaurants",
+      "title6": "Prestigious location",
+      "title7": "Private space",
+      "title8": "Designer lobby interior",
+      "title9": "Modern architecture",
+      "title10": "Wide walking alleys"
+    },
+    "dop4": {
+      "title1": "2 meters",
+      "desc1": "Panoramic window height",
+      "title2": "from 3.6 meters",
+      "desc2": "Ceiling height",
+      "title3": "24/7",
+      "desc3": "Concierge service"
+    }
+  },
+  "vacancyDetails": {
+    "back": "Back to vacancy list",
+    "desc": "Job description:",
+    "come": "Requirements:",
+    "from": "From",
+    "som": "som",
+    "salary": "Salary",
+    "employment": "Employment",
+    "format": "Work format"
+  },
+  "otclick": {
+    "fio": "Full Name",
+    "fioText": "Please enter your full name",
+    "phone": "Phone",
+    "phoneText": "Please enter your phone number",
+    "emailText": "Please enter your email",
+    "cover": "Cover letter...",
+    "coverText": "Please enter the text",
+    "doc": "Upload a document",
+    "docText": "Please Select a document",
+    "emailCorrect": "Please enter your correct email"
+  },
+  "uploadFile": {
+    "accept": "You can only download a PDF or DOCX file.",
+    "acceptableSize": "The file size must be less than 20MB",
+    "dropFile": "Upload a document",
+    "downFile": "uploaded",
+    "getAnother": "Upload another one"
+  }
+}

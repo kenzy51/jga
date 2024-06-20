@@ -1,0 +1,60 @@
+@import "../../../theme/mixins.scss";
+
+.textBlock {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 50px;
+    padding: var(--pt-190) 0 114px;
+
+    @include responsive(desktop) {
+        align-items: start;
+        flex-direction: column;
+        gap: 28px;
+        padding: var(--pt-190) 0 64px;
+    }
+    @include responsive(tablet) {
+        padding: var(--pt-136) 0 48px;
+    }
+}
+
+.title {
+    max-width: 56.5rem;
+    font-size: 4.6rem;
+    font-weight: 600;
+    line-height: 5.35rem;
+    color: var(--white);
+
+    @include responsive(desktop) {
+        font-size: 45px;
+        line-height: 48.8px;
+    }
+    @include responsive(tablet) {
+        font-size: 4rem;
+        line-height: 4.6rem;
+    }
+}
+
+.desc {
+    margin-bottom: 1rem;
+    margin-right: 4rem;
+    max-width: 38.4rem;
+    font-weight: 400;
+    color: var(--primary-70);
+    font-size: 1.4rem;
+    line-height: 1.76rem;
+
+    @include responsive(desktop) {
+        margin-bottom: 0rem;
+    }
+}
+
+.projectList {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    @include responsive(averageTablet) {
+        gap: 20px;
+    }
+}

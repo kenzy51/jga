@@ -1,0 +1,182 @@
+@import "../../../theme/mixins.scss";
+
+// banner
+.background {
+  position: relative;
+  padding: 80px 70px;
+  background-image: url("https://s3.barcelona.kg/dev/72177661-5206.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  @include responsive(averagePhone) {
+    background-image: url("https://s3.barcelona.kg/dev/72177653-4915.webp");
+    padding: 90px 20px;
+    height: 93vh;
+  }
+
+  & > * {
+    z-index: 2;
+  }
+}
+
+.btnBack {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: max-content;
+  color: var(--primary-50);
+  border-radius: 4px;
+  padding: 1.6rem 2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: var(--primary-20);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  transition: all 0.2s linear;
+
+  & > img {
+    width: 0.8rem;
+    transform: translateY(0.1rem);
+
+    @include responsive(phone) {
+      transform: translateY(0rem);
+    }
+  }
+
+  &:hover {
+    color: var(--primary);
+  }
+}
+
+.title {
+  max-width: 500px;
+  font-size: 64px;
+  line-height: 64px;
+  color: var(--white);
+  font-weight: 600;
+
+  @include responsive(phone) {
+    max-width: 300px;
+  }
+}
+
+.gradient {
+  background: linear-gradient(0deg, black -3rem, rgba(8, 14, 31, 0));
+  bottom: -1px;
+  left: -1px;
+  position: absolute;
+  right: -1px;
+  top: 20%;
+  transition: top 0.2s;
+  will-change: top;
+  z-index: 1;
+}
+// banner
+
+.textBlock {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 70px 0 80px;
+  border-bottom: 1px solid var(--border-7-light);
+
+  @include responsive(desktop) {
+    gap: 0px;
+    flex-direction: column;
+  }
+  @include responsive(averageTablet) {
+    padding: 70px 0 40px;
+  }
+  @include responsive(averagePhone) {
+    padding: 70px 0 24px;
+  }
+}
+
+.text {
+  max-width: 54rem;
+  font-size: 3rem;
+  line-height: 3.8rem;
+  color: var(--white);
+  font-weight: 600;
+  margin-bottom: 32px;
+
+  @include responsive(averagePhone) {
+    font-size: 2.1rem;
+    line-height: 2.415rem;
+  }
+}
+
+.desc {
+  max-width: 34rem;
+  font-size: 1.4rem;
+  line-height: 1.76rem;
+  font-weight: 400;
+  color: var(--primary-70);
+  margin-top: 7px;
+  margin-bottom: 28px;
+
+  @include responsive(averagePhone) {
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+}
+
+.textBlock2 {
+  margin-top: 80px;
+  margin-bottom: 64px;
+
+  @include responsive(averageTablet) {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+  @include responsive(averagePhone) {
+    margin-top: 32px;
+    margin-bottom: 48px;
+  }
+}
+
+.text2 {
+  font-size: 3rem;
+  line-height: 3.8rem;
+  color: var(--bg-btn);
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.desc2 {
+  max-width: 52rem;
+  font-weight: 400;
+  color: var(--primary-70);
+  font-size: 1.4rem;
+  line-height: 1.76rem;
+}
+
+.cardList {
+  display: flex;
+  gap: 21px;
+
+  @include responsive(desktop) {
+    flex-direction: column;
+  }
+}
+
+.projectsList {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  @include responsive(desktop) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include responsive(averagePhone) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

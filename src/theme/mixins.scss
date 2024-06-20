@@ -1,0 +1,77 @@
+@mixin responsive($breakpoint) {
+  @if $breakpoint == smallPhone {
+    @media (max-width: 440px) {
+      @content;
+    }
+  } @else if $breakpoint == phone {
+    @media (max-width: 540px) {
+      @content;
+    }
+  } @else if $breakpoint == averagePhone {
+    @media (max-width: 640px) {
+      @content;
+    }
+  } @else if $breakpoint == tablet {
+    @media (max-width: 768px) {
+      @content;
+    }
+  } @else if $breakpoint == averageTablet {
+    @media (max-width: 840px) {
+      @content;
+    }
+  } @else if $breakpoint == desktop {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  } @else if $breakpoint == averageDesktop {
+    @media (max-width: 1194px) {
+      @content;
+    }
+  } @else if $breakpoint == bigDesktop {
+    @media (max-width: 1384px) {
+      @content;
+    }
+  } @else if $breakpoint == hugeDesktop {
+    @media (max-width: 1504px) {
+      @content;
+    }
+  } @else if $breakpoint == xlDesktop {
+    @media (max-width: 1684px) {
+      @content;
+    }
+  } @else if $breakpoint == smallerSuper {
+    @media (max-width: 1884px) {
+      @content;
+    }
+  } @else if $breakpoint == superXl {
+    @media (max-width: 2284px) {
+      @content;
+    }
+  } @else if $breakpoint == custom {
+    @content;
+  } @else {
+    @error "Invalid breakpoint: #{$breakpoint}. Use 'phone', 'tablet', 'desktop', or 'custom'.";
+  }
+}
+
+@mixin responsiveHeight($breakpoint) {
+  @if $breakpoint == smallH {
+    @media (max-height: 630px) and (max-width: 450px) {
+      @content;
+    }
+  } @else if $breakpoint == mediumH {
+    @media (max-height: 730px) and (max-width: 450px) {
+      @content;
+    }
+  } @else if $breakpoint == bigH {
+    @media (max-height: 740px) and (max-width: 425px) {
+      @content;
+    }
+  } @else if $breakpoint == samsungPhone {
+    @media (max-height: 780px) and (max-width: 425px) {
+      @content;
+    }
+  } @else {
+    @error "Invalid breakpoint: #{$breakpoint}. Use 'phone', 'tablet', 'desktop', or 'custom'.";
+  }
+}

@@ -1,0 +1,346 @@
+@import "../../../theme/mixins.scss";
+
+// banner
+.background {
+    position: relative;
+    padding: 80px 70px;
+    background-image: url("https://s3.barcelona.kg/dev/71682319-7028.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    @include responsive(averagePhone) {
+        padding: 90px 20px;
+        height: 93vh;
+    }
+
+    & > * {
+        z-index: 2;
+    }
+}
+
+.btnBack {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: max-content;
+    color: var(--primary-50);
+    border-radius: 4px;
+    padding: 1.6rem 2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    background-color: var(--primary-20);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    transition: all 0.2s linear;
+
+    & > img {
+        width: 0.8rem;
+        transform: translateY(0.1rem);
+
+        @include responsive(phone) {
+            transform: translateY(0rem);
+        }
+    }
+
+    &:hover {
+        color: var(--primary);
+    }
+}
+
+.title,
+.titleMob {
+    font-size: 64px;
+    line-height: 66px;
+    color: var(--white);
+    font-weight: 600;
+
+    @include responsive(phone) {
+        display: none;
+    }
+}
+
+.titleMob {
+    display: none;
+
+    @include responsive(phone) {
+        display: block;
+        max-width: 300px;
+    }
+}
+
+.gradient {
+    background: linear-gradient(0deg, black -3rem, rgba(8, 14, 31, 0));
+    bottom: -1px;
+    left: -1px;
+    position: absolute;
+    right: -1px;
+    top: 20%;
+    transition: top 0.2s;
+    will-change: top;
+    z-index: 1;
+}
+// banner
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    padding: 70px 0;
+    border-bottom: 1px solid var(--border-7-light);
+
+    @include responsive(desktop) {
+        gap: 36px;
+        flex-direction: column;
+    }
+    @include responsive(averageTablet) {
+        padding: 70px 0 46px;
+    }
+    @include responsive(averagePhone) {
+        gap: 28px;
+        padding: 70px 0 24px;
+    }
+}
+
+.text {
+    max-width: 54rem;
+    font-size: 3rem;
+    line-height: 3.8rem;
+    color: var(--white);
+    font-weight: 600;
+
+    @include responsive(averagePhone) {
+        font-size: 2.8rem;
+        line-height: 3.22rem;
+    }
+}
+
+.descBlock {
+    display: flex;
+    gap: 100px;
+
+    @include responsive(averageTablet) {
+        gap: 0px;
+        flex-direction: column;
+    }
+}
+
+.desc,
+.desc2 {
+    max-width: 33.4rem;
+    font-size: 1.4rem;
+    line-height: 1.76rem;
+    font-weight: 400;
+    color: var(--primary-70);
+    margin-bottom: 24px;
+}
+
+.desc2 {
+    max-width: 37.7rem;
+}
+
+.text2 {
+    margin-top: 70px;
+    margin-bottom: 48px;
+    max-width: 74.8rem;
+    font-size: 3rem;
+    line-height: 3.8rem;
+    color: var(--white);
+    font-weight: 600;
+
+    @include responsive(averageTablet) {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+    @include responsive(averagePhone) {
+        margin-top: 48px;
+        margin-bottom: 32px;
+        font-size: 1.8rem;
+        line-height: 2.07rem;
+    }
+}
+
+// swiper
+.swiper {
+    border-radius: 16px;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(11, 11, 12, 0) 50%);
+    }
+    :global {
+        .swiper-slide {
+            position: relative;
+            height: 24rem;
+            padding-top: 46.5%;
+        }
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: var(--white) !important;
+            background-color: rgba(246, 246, 249, 0.1);
+            backdrop-filter: blur(50px);
+            -webkit-backdrop-filter: blur(50px);
+            width: 4.8rem;
+            height: 4.8rem;
+            border-radius: 4px;
+            transition: background-color 0.2s linear;
+
+            @include responsive(averagePhone) {
+                width: 3.4rem;
+                height: 3.4rem;
+            }
+
+            &::after {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            &:hover {
+                background-color: var(--black);
+            }
+        }
+
+        .swiper-pagination {
+            bottom: 24px;
+
+            &-bullet {
+                background: var(--white) !important;
+                width: 0.6rem;
+                height: 0.6rem;
+
+                &-active {
+                    background: var(--bg-btn) !important;
+                }
+            }
+        }
+    }
+}
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+// swiper
+
+// project
+.about {
+    max-width: 50rem;
+    font-size: 4.6rem;
+    line-height: 5.35rem;
+    color: var(--white);
+    font-weight: 600;
+    margin: 64px 0 48px;
+
+    @include responsive(averageTablet) {
+        margin: 55px 0 32px;
+    }
+
+    @include responsive(averagePhone) {
+        font-size: 3.2rem;
+        line-height: 4.022rem;
+        margin: 32px 0 20px;
+    }
+}
+
+.about2 {
+    max-width: 35.6rem;
+    font-size: 2.6rem;
+    line-height: 3.02rem;
+    color: var(--white);
+    font-weight: 600;
+    margin: 56px 0 32px;
+
+    @include responsive(averageTablet) {
+        margin: 50px 0 32px;
+    }
+
+    @include responsive(averagePhone) {
+        font-size: 1.8rem;
+        line-height: 2.07rem;
+        margin: 44px 0;
+    }
+}
+
+.blockList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+    @include responsive(desktop) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.infoList {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border-bottom: 1px solid var(--border-7-light);
+    gap: 20px;
+    padding-bottom: 88px;
+
+    @include responsive(averageDesktop) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include responsive(averageTablet) {
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 70px;
+    }
+
+    @include responsive(averagePhone) {
+        padding-bottom: 49px;
+    }
+}
+
+.advantageList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+
+    @include responsive(averageTablet) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.advantageDetailList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+
+    @include responsive(bigDesktop) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @include responsive(averageDesktop) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include responsive(averageTablet) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+// project

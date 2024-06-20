@@ -1,0 +1,14 @@
+.input {
+  background-color: white;
+  border-color: rgb(182, 182, 182);
+  height: 44px;
+}
+
+.input :global(.ant-input) {
+  color: #181733;
+  background-color: white;
+}
+
+.input :global(.ant-input::placeholder) {
+  color: rgb(182, 182, 182);
+}

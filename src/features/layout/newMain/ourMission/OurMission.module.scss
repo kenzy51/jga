@@ -1,0 +1,77 @@
+@import "../../../../theme/mixins.scss";
+
+.mission {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 80px 0px 110px;
+
+    @include responsive(averagePhone) {
+        padding: 80px 0px;
+    }
+}
+
+.title {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.011rem;
+    color: var(--bg-btn);
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 72px;
+    border-bottom: 1px solid var(--border-7-light);
+
+    @include responsive(desktop) {
+        flex-direction: column;
+    }
+
+    @include responsive(averagePhone) {
+        padding-bottom: 40px;
+    }
+}
+
+.subTitle {
+    font-size: 4.6rem;
+    font-weight: 600;
+    line-height: 5.35rem;
+    max-width: 53.5rem;
+    margin-top: -1.5rem;
+
+    @include responsive(tablet) {
+        font-size: 4rem;
+        line-height: 4.6rem;
+    }
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.text {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.76rem;
+    color: var(--primary-70);
+    max-width: 31rem;
+}
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 72px;
+
+    @include responsive(tablet) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    @include responsive(averagePhone) {
+        padding-top: 40px;
+    }
+}

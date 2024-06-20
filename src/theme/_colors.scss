@@ -1,0 +1,33 @@
+:root {
+    --font-size: calc(0.625rem + 1.500 * ((100vw - 375px) / 1545));
+
+    --gradient-bg: linear-gradient(87deg, #000 2.3%, #4e4e4e 39.84%, #000 122.3%);
+    --bg-gray: #EBEBF2;
+    --bg-lightBlack: #131315;
+
+    --black: #0B0B0C;
+    --white: #F6F6F9;
+    --yellow: #FDC52C;
+    --background-color: #0B0B0C;
+
+    --primary: #F6F6F9;
+    --primary-20: rgba(246, 246, 249, 0.2);
+    --primary-50: rgba(246, 246, 249, 0.5);
+    --primary-70: rgba(246, 246, 249, 0.7);
+    --secondary: #0B0B0C;
+    --secondary-50: rgba(11, 11, 12, 0.5);
+    --secondary-70: rgba(11, 11, 12, 0.7);
+
+    // divider
+    --border-7-light: rgba(246, 246, 249, 0.07);
+    --border-7-dark: rgba(11, 11, 12, 0.07);
+
+    // padding
+    --pt-190: 190px;
+    --pt-136: 136px;
+
+    // button
+    --bg-btn: #606AFF;
+    --bg-btn-hover: #4956FF;
+    --bg-btn-click: #212EDC;
+}
