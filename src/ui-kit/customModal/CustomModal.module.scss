@@ -1,0 +1,80 @@
+@import "../../theme/mixins.scss";
+
+.modal {
+  :global {
+    .ant-modal-content {
+      background-color: white;
+      padding: 0;
+      border-radius: 10px;
+      .ant-modal-close {
+        top: 30px;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+
+        .ant-modal-close-x {
+          font-size: 22px;
+          color: white;
+        }
+      }
+    }
+    .ant-modal-header {
+      text-align: center;
+      height: 80px;
+      // background: var(--grey, linear-gradient(261deg, #4e4e4e 4.9%, #b1b1b1 82.8%)) !important;
+      background: var(
+        --blackgreay,
+        linear-gradient(87deg, #000 2.3%, #4e4e4e 39.84%, #000 122.3%)
+      ) !important;
+      border-radius: 4px;
+      padding: 32px 24px 10px;
+      color: white !important;
+    }
+    .ant-divider {
+      margin: 15px 0px 30px -24px !important;
+      border: 0.7px solid #333155;
+      width: 558px;
+    }
+    .ant-modal-body {
+      padding: 50px 80px;
+
+      button {
+        height: 40px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      @include responsive(phone) {
+        padding: 50px 14px;
+      }
+    }
+
+    .ant-modal-footer {
+      padding: 0px 20px 24px 20px;
+    }
+
+    .ant-modal-title {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: normal;
+      color: white;
+    }
+  }
+}
+
+.subheader {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.divider {
+  :global {
+    .ant-divider {
+      .ant-divider-horizontal {
+        margin: 0 !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+@import "../../../../theme/mixins.scss";
+
+.block {
+    padding: 24px 10px;
+    color: var(--white);
+    border-radius: 16px;
+    background: var(--bg-lightBlack);
+
+    @include responsive(averagePhone) {
+        padding: 20px 10px;
+    }
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 8px 0px;
+    padding-left: 24px;
+    gap: 30px;
+
+    @include responsive(averagePhone) {
+        gap: 15px;
+        padding: 4px 0px;
+        padding-left: 24px;
+    }
+}
+
+.green,
+.blue,
+.red,
+.purple {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 4px;
+    border-radius: 30px;
+    background: #75bb4b;
+}
+
+.blue {
+    background: #0e76bc;
+}
+
+.red {
+    background: #ec1d23;
+}
+
+.purple {
+    background: #606aff;
+}
+
+.bigTitle {
+    font-size: 3.2rem;
+    font-weight: 600;
+    line-height: 3.68rem;
+
+    @include responsive(averagePhone) {
+        font-size: 2.4rem;
+        line-height: 2.76rem;
+    }
+}
+
+.text {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.76rem;
+    color: var(--primary-70);
+
+    @include responsive(averagePhone) {
+        display: flex;
+        align-items: flex-end;
+        height: 3.6rem;
+    }
+}

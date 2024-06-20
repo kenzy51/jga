@@ -1,0 +1,17 @@
+.upload {
+  background-color: red;
+  :global {
+    .ant-upload {
+      & > .ant-upload-drag-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4px;
+      }
+    }
+  }
+}
+
+.text {
+  font-weight: 600;
+}

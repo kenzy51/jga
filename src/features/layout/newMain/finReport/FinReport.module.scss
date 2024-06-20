@@ -1,0 +1,190 @@
+@import "../../../../theme/mixins.scss";
+
+.finReport {
+  padding: 28.2rem 0px 110px;
+
+  @include responsive(desktop) {
+    padding: 32rem 0px 110px;
+  }
+
+  @include responsive(averageTablet) {
+    padding: 28rem 0px 110px;
+  }
+
+  @include responsive(averagePhone) {
+    padding: 232px 0px 80px;
+  }
+}
+
+.heading {
+  font-size: 4.6rem;
+  font-weight: 600;
+  line-height: 5.35rem;
+  margin-bottom: 69px;
+
+  @include responsive(averageTablet) {
+    margin-bottom: 48px;
+    font-size: 45px;
+    line-height: 51.5px;
+  }
+  @include responsive(tablet) {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  @include responsive(averageTablet) {
+    flex-direction: column;
+  }
+
+  & > .selectTypes,
+  & > .selectYears {
+    max-width: 52rem;
+    width: 100%;
+    height: 6.4rem;
+
+    @include responsive(averageTablet) {
+      max-width: 100%;
+    }
+
+    :global {
+      .ant-select-selector {
+        border-radius: 16px;
+        padding: 0 3.2rem;
+        background-color: var(--bg-gray);
+        border: none !important;
+        box-shadow: none !important;
+
+        & > .ant-select-selection-item,
+        & > .ant-select-selection-placeholder {
+          color: var(--secondary-70);
+          font-size: 1.4rem;
+          font-weight: 600 !important;
+        }
+      }
+
+      .ant-select-arrow {
+        color: var(--secondary) !important;
+        transform: rotate(-90deg);
+        height: 0;
+
+        &::before,
+        &::after {
+          position: absolute;
+          right: 0.5px;
+          top: -2.5rem;
+          content: "";
+          height: 0.2rem;
+          width: 1rem;
+          background-color: var(--secondary);
+          transform: translateY(-0.05rem) rotate(45deg);
+          transform-origin: left;
+        }
+
+        &::after {
+          transform: translateY(0.05rem) rotate(-45deg);
+        }
+
+        & > .anticon {
+          display: none;
+        }
+      }
+    }
+  }
+  & > .selectYears {
+    max-width: 25rem;
+
+    @include responsive(averageTablet) {
+      max-width: 100%;
+    }
+  }
+  & > .btn {
+    height: 6.4rem;
+    max-width: 25rem;
+    width: 100%;
+    border-radius: 16px;
+    background-color: var(--bg-btn) !important;
+    color: var(--white) !important;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+    @include responsive(averageTablet) {
+      max-width: 100%;
+    }
+
+    &:hover {
+      background-color: var(--bg-btn-hover) !important;
+    }
+    &:active {
+      background-color: var(--bg-btn-click) !important;
+    }
+  }
+}
+
+.dropdown {
+  :global {
+    .ant-select-item {
+      font-size: 1.4rem;
+      padding: 0.3rem 3rem;
+    }
+    .ant-select-item-option-selected {
+      background-color: var(--bg-gray) !important;
+    }
+  }
+}
+
+.reportsList {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+  @include responsive(desktop) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include responsive(averagePhone) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.loadBtn {
+  height: 6.4rem;
+  width: 100%;
+  background-color: var(--bg-gray);
+  color: var(--secondary-50);
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 16px;
+  margin: 40px 0px;
+  border: none;
+  overflow: hidden;
+  transition: color 0.15s linear;
+
+  &:not(:disabled):hover {
+    color: var(--secondary-70) !important;
+  }
+
+  @include responsive(tablet) {
+    margin-bottom: 8px;
+  }
+}
+
+.empty {
+  margin-top: 7rem;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  text-align: center;
+
+  @include responsive(averageTablet) {
+    margin-top: 6rem;
+  }
+  @include responsive(averagePhone) {
+    margin-top: 5rem;
+  }
+}

@@ -1,0 +1,10 @@
+<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Car">
+<path id="Vector" d="M2.19531 11.25H23.1953" stroke="#6D737A" stroke-width="1.60606" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M21.6953 17.25V19.5C21.6953 19.6989 21.6163 19.8897 21.4756 20.0303C21.335 20.171 21.1442 20.25 20.9453 20.25H18.6953C18.4964 20.25 18.3056 20.171 18.165 20.0303C18.0243 19.8897 17.9453 19.6989 17.9453 19.5V17.25" stroke="#6D737A" stroke-width="1.60606" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M7.44531 17.25V19.5C7.44531 19.6989 7.3663 19.8897 7.22564 20.0303C7.08499 20.171 6.89423 20.25 6.69531 20.25H4.44531C4.2464 20.25 4.05563 20.171 3.91498 20.0303C3.77433 19.8897 3.69531 19.6989 3.69531 19.5V17.25" stroke="#6D737A" stroke-width="1.60606" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M6.69531 14.25H8.19531" stroke="#6D737A" stroke-width="1.60606" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M17.1953 14.25H18.6953" stroke="#6D737A" stroke-width="1.60606" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M21.6953 11.25L18.8922 4.94998C18.834 4.8167 18.7384 4.70321 18.6169 4.62331C18.4953 4.54342 18.3532 4.50057 18.2078 4.49998H7.18281C7.03739 4.50057 6.89528 4.54342 6.77377 4.62331C6.65226 4.70321 6.5566 4.8167 6.49844 4.94998L3.69531 11.25V17.25H21.6953V11.25Z" stroke="#6D737A" stroke-width="1.60606" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

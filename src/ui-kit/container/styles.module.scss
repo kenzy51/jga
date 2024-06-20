@@ -1,0 +1,19 @@
+@import "../../theme/mixins.scss";
+
+.wrapper {
+  max-width: 1408px;
+  margin: 0 auto;
+ 
+  @include responsive(bigDesktop) {
+    padding: 0 40px;
+  }
+  @include responsive(desktop) {
+    padding: 0 35px;
+  }
+  @include responsive(tablet) {
+    padding: 0 27px;
+  }
+  @include responsive(phone) {
+    padding: 0 16px;
+  }
+}

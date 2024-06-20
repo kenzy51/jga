@@ -1,0 +1,90 @@
+@import "../../../../theme/mixins.scss";
+
+.advantages {
+    padding: 80px 0px 120px;
+    background-color: var(--white);
+
+    @include responsive(averagePhone) {
+        padding: 60px 0px 72px;
+    }
+}
+
+.title {
+    font-size: 4.6rem;
+    font-weight: 600;
+    line-height: 5.35rem;
+    max-width: 56rem;
+    margin-bottom: 65px;
+
+    @include responsive(tablet) {
+        font-size: 4rem;
+        line-height: 4.6rem;
+        margin-bottom: 45px;
+    }
+
+    @include responsive(averagePhone) {
+        margin-bottom: 35px;
+    }
+}
+
+.workDir {
+    padding-bottom: 110px;
+    border-bottom: 1px solid var(--border-7-dark);
+
+    @include responsive(averagePhone) {
+        padding-bottom: 80px;
+    }
+}
+
+.workDirList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    @include responsive(desktop) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include responsive(averagePhone) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.ourValues {
+    position: relative;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    overflow: hidden;
+
+    @include responsive(desktop) {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    @include responsive(averagePhone) {
+        padding-top: 60px;
+    }
+
+    & > .title {
+        max-width: 47rem;
+        margin-top: -10px;
+        margin-bottom: 0px;
+
+        @include responsive(desktop) {
+            margin-top: 0px;
+        }
+
+        @include responsive(tablet) {
+            font-size: 3.2rem;
+            line-height: 3.68rem;
+        }
+    }
+}
+
+.infoList {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}

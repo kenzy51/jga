@@ -1,0 +1,91 @@
+@import "../../../../theme/mixins.scss";
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px 0px 70px;
+    border-top: 1px solid var(--border-7-dark);
+
+    @include responsive(desktop) {
+        padding: 90px 0px 60px;
+    }
+    @include responsive(tablet) {
+        padding: 60px 0px 40px;
+    }
+
+    & > .heading {
+        font-size: 4.6rem;
+        font-weight: 600;
+        line-height: 5.35rem;
+        max-width: 56.5rem;
+        color: var(--black);
+
+        @include responsive(desktop) {
+            font-size: 45px;
+            line-height: 48.8px;
+        }
+        @include responsive(tablet) {
+            font-size: 40px;
+            line-height: 46px;
+        }
+    }
+
+    & > .btn {
+        position: relative;
+        display: flex;
+        align-items: center;
+        font-size: 1.4rem;
+        font-weight: 700;
+        line-height: 1.708rem;
+        color: var(--black);
+        padding-right: 1.8rem;
+        cursor: pointer;
+
+        @include responsive(phone) {
+            display: none;
+        }
+
+        & > .arrow {
+            &::before,
+            &::after {
+                position: absolute;
+                content: "";
+                right: 0px;
+                top: 50%;
+                width: 10px;
+                height: 2px;
+                transform: translateY(-1px) rotate(-45deg);
+                transform-origin: right;
+                background-color: var(--black);
+                transition: all 0.15s ease-in-out;
+            }
+            &::after {
+                transform: rotate(45deg);
+            }
+        }
+    }
+}
+
+.loadBtn {
+    height: 64px;
+    width: 100%;
+    background-color: var(--bg-gray);
+    color: var(--secondary-50);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 16px;
+    margin: 30px 0px 0px;
+    border: none;
+    overflow: hidden;
+    display: none;
+    transition: color 0.15s linear;
+
+    &:not(:disabled):hover {
+        color: var(--secondary-70) !important;
+    }
+
+    @include responsive(phone) {
+        display: block;
+    }
+}

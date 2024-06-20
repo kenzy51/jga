@@ -1,0 +1,14 @@
+@import "../../../../theme/mixins.scss";
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--black);
+  display: flex;
+
+  @include responsive(phone) {
+    height: 93vh;
+  }
+}

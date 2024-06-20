@@ -1,0 +1,61 @@
+.wrapper {
+  height: 64px;
+
+  :global {
+    .ant-upload-wrapper .ant-upload-drag {
+      border: none !important;
+    }
+    .ant-upload-wrapper .ant-upload-drag .ant-upload-drag-container {
+      display: flex !important;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .ant-upload-wrapper .ant-upload-drag .ant-upload-btn {
+      display: flex !important;
+    }
+    .ant-upload-wrapper .ant-upload-list .ant-upload-list-item-error {
+      display: none;
+    }
+    .ant-upload-wrapper .ant-upload-drag p.ant-upload-drag-icon .anticon {
+      color: #BB0A21 !important;
+      font-size: 48px;
+    }
+  }
+  .imageBlock {
+    transition-duration: 0.3s;
+    margin-top: 10px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+  }
+  .preview {
+    display: flex;
+    flex-direction: column;
+  }
+  .tag {
+    margin-top: -30px !important;
+  }
+}
+
+.block {
+  display: flex;
+  align-items: center;
+}
+
+.success {
+  border: none;
+  border-radius: 16px;
+  background-color: #EBEBF2;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  font-size: 20px;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.icon {
+  margin-top: 4px;
+  width: 24px;
+  height: 24px;
+}
